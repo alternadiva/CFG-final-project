@@ -140,7 +140,7 @@ main {
   margin: 0 1% 0 1%;
   border-radius: 8px;
   z-index: -10;
-  color: rgb(179, 135, 221);
+  color: black;
   text-align: center;
   padding: 2%;
 }
@@ -148,4 +148,41 @@ main {
 h2 {
   margin: 0;
   padding: 0;
+  color: rgb(179, 135, 221);
 }
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: none;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .flex-container .box {
+    background-color: rgb(252, 230, 225);
+    width: 50%;
+  }
+
+  .flex-stats {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: none;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-family: monospace;
+    font-size: 15px;
+    padding: 20px;
+  }
+
+  .flex-stats .box {
+    background-color: rgb(252, 230, 225);
+    width: 25%;
+  }
+
+  .flex-stats span {
+      font-size: 40px;
+  }
+
