@@ -60,6 +60,14 @@ header {
   font-family: "Contrail One", cursive;
 }
 
+#a-title {
+  text-decoration: none;
+}
+
+#her-color {
+  color: rgb(179, 135, 221);
+}
+
 #nav-search {
   padding-top: 13px;
   font-size: 20px;
@@ -152,37 +160,36 @@ h2 {
 }
 
 .flex-container {
-    display: flex;
-    flex-wrap: nowrap;
-    background-color: none;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-  }
-  
-  .flex-container .box {
-    background-color: rgb(252, 230, 225);
-    width: 50%;
-  }
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: none;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
 
-  .flex-stats {
-    display: flex;
-    flex-wrap: nowrap;
-    background-color: none;
-    align-items: center;
-    justify-content: center;
-    color: black;
-    font-family: monospace;
-    font-size: 15px;
-    padding: 20px;
-  }
+.flex-container .box {
+  background-color: rgb(252, 230, 225);
+  width: 50%;
+}
 
-  .flex-stats .box {
-    background-color: rgb(252, 230, 225);
-    width: 25%;
-  }
+.flex-stats {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: none;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-family: monospace;
+  font-size: 15px;
+  padding: 20px;
+}
 
-  .flex-stats span {
-      font-size: 40px;
-  }
+.flex-stats .box {
+  background-color: rgb(252, 230, 225);
+  width: 25%;
+}
 
+.flex-stats span {
+  font-size: 40px;
+}
