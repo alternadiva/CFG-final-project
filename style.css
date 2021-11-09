@@ -16,6 +16,7 @@ header {
   margin-bottom: 0;
   padding: 0;
   position: sticky;
+  background-color: ;
 }
 
 #header-div {
@@ -25,8 +26,6 @@ header {
   margin-top: 0;
   margin-bottom: 0;
   padding: 0.5% 1.5%;
-  flex-wrap: nowrap;
-  align-items: flex-start;
 }
 
 .overlay {
@@ -46,18 +45,28 @@ header {
 #hamburger {
   padding-top: 13px;
   font-size: 27px;
-  width: 300px;
+  flex: 0 2 auto;
+  background-color: ;
+  width: 33%;
+  height: 50px;
 }
 
 #title {
   color: rgb(60, 78, 118);
-  width: 150px;
+  background-color: ;
   font-size: 30px;
+  font-family: "Contrail One", cursive;
+  margin: 0;
+}
+
+#title-div {
+  flex: 2 0 auto;
   padding: 0;
-  padding-top: 10px;
+  padding-top: 13px;
   margin: 0;
   text-align: center;
-  font-family: "Contrail One", cursive;
+  width: 33%;
+  height: 50px;
 }
 
 #a-title {
@@ -71,8 +80,11 @@ header {
 #nav-search {
   padding-top: 13px;
   font-size: 20px;
-  width: 320px;
+  flex: 1 1 auto;
   text-align: right;
+  background-color: ;
+  height: 50px;
+  width: 33%;
 }
 
 #search-field {
@@ -132,11 +144,11 @@ header {
   background-color: rgb(252, 230, 225);
   background-repeat: no-repeat;
   background-position: center;
-  position: relative;
-  height: 80vh;
+  background-size: 68vw;
+  height: 82vh;
   margin: 0 1% 0 1%;
   border-radius: 8px;
-  z-index: -10;
+  z-index: -100;
   color: rgb(179, 135, 221);
   text-align: center;
   padding: 2%;
@@ -145,19 +157,68 @@ header {
 main {
   background-color: rgb(252, 230, 225);
   height: 80vh;
+  width: 93.8vw;
   margin: 0 1% 0 1%;
   border-radius: 8px;
   z-index: -10;
-  color: black;
+  color: rgb(60, 78, 118);
   text-align: center;
   padding: 2%;
+
+  left: 0;
+  right: 0;
 }
 
 h2 {
   margin: 0;
+  margin-top: 20px;
   padding: 0;
   color: rgb(179, 135, 221);
+  font-size: 1.7vw;
 }
+
+#read-about-button {
+  position: absolute;
+  bottom: 3.5vh;
+
+  margin-left: 37vw;
+  margin-right: 37vw;
+  background-color: white;
+  height: 45px;
+  border-radius: 30px;
+  width: 300px;
+}
+
+#read-about-a {
+  text-decoration: none;
+  color: rgb(60, 78, 118);
+}
+
+#read-about-p {
+  margin: 13px;
+}
+
+#mission-content {
+  background-color: white;
+  height: 56vh;
+  margin: 10vh 1% 15vh 1%;
+  padding: 5%;
+  border-radius: 8px;
+  text-align: center;
+}
+
+#mission-text {
+  text-align: justify;
+  font-size: 1.4rem;
+  color: rgb(60, 78, 118);
+  line-height: 1.5;
+}
+
+#mission-img {
+  width: 12%;
+}
+
+/*------------------------------------TECH GAP-------------------------------------------*/
 
 .flex-container {
   display: flex;
@@ -166,6 +227,7 @@ h2 {
   align-items: center;
   justify-content: center;
   padding: 10px;
+  font-size: 1em;
 }
 
 .flex-container .box {
@@ -179,9 +241,9 @@ h2 {
   background-color: none;
   align-items: center;
   justify-content: center;
-  color: black;
+  color: rgb(60, 78, 118);
   font-family: monospace;
-  font-size: 15px;
+  font-size: 1.1vw;
   padding: 20px;
 }
 
@@ -191,5 +253,13 @@ h2 {
 }
 
 .flex-stats span {
-  font-size: 40px;
+  font-size: 2.7vw;
+}
+
+#flex-main {
+  height: auto;
+}
+
+#tech-gap-img {
+  max-width: 31vw;
 }
