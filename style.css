@@ -218,8 +218,6 @@ h2 {
   width: 12%;
 }
 
-/*------------------------------------TECH GAP-------------------------------------------*/
-
 .flex-container {
   display: flex;
   flex-wrap: nowrap;
@@ -234,6 +232,21 @@ h2 {
   background-color: rgb(252, 230, 225);
   width: 50%;
 }
+
+ a {
+    color: rgb(179, 135, 221);
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: rgb(179, 135, 221);
+  }
+  
+  a:hover {
+    color: white;
+  }
+
+/*------------------------------------TECH GAP-------------------------------------------*/
 
 .flex-stats {
   display: flex;
@@ -263,3 +276,15 @@ h2 {
 #tech-gap-img {
   max-width: 31vw;
 }
+
+/*------------------------------------RESOURCES-------------------------------------------*/
+
+ figcaption {
+      padding: 5px;
+      font-style: italic;
+      font-size: 10pt;
+  }
+
+  h3 {
+    color: rgb(179, 135, 221);
+  }
