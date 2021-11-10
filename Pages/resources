@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Contrail+One&family=Manjari:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>#getHerCoding</title>
+</head>
+<body>
+    <div id="main-div">
+        <header>
+            <div id="header-div">
+                
+                <div id="menu" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" id="close-btn">&times;</a>
+                    <div class="menu-elements">
+                      <a href="../index.html" class="menu-item">Home</a>
+                      <a href="./techgap.html" class="menu-item">The Tech Gap</a>
+                      <a href="./page2.html" class="menu-item">Page 2</a>
+                      <a href="./page3.html" class="menu-item">Page 3</a>
+                    </div>
+                  </div>
+                  
+                  <div id="hamburger">
+                    <span  id="open-btn"><i class="fa fa-bars"></i></span>
+                  </div>
+
+                <div id="title-div">
+                  <a href="../index.html" id="a-title"><p id="title">#get<span id="her-color">Her</span>Coding</p></a>
+                </div>
+
+                <div id="nav-search">
+                    <input type="search" id="search-field" placeholder="Search...">
+                    <label for="search-field"><i class="fa fa-search"></i></label>
+                </div>
+            </div>
+        </header>
+
+        <main>
+           <h2>#GetHerCoding: Resources</h2>
+            <div>
+                <figure>
+                    <img src="https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/201608/margaret-hamilton-mit-apollo-code_0.jpg?itok=gcN5sX1_" height="400px">
+                    <figcaption>Computer scientist Margaret Hamilton poses with the Apollo guidance software she and her team developed at MIT.</figcaption>
+                  </figure>
+                  
+                <div class="flex-container">
+                    <div class="box">
+                        <p>Half a century ago One of the many contributors to this effort was Margaret Hamilton, a computer scientist at MIT, played a critical role in the development of the flight software for NASA’s Apollo program which landed humans on the moon for the first time in 1969. For her work during this period, Hamilton has been credited with popularizing the concept of software engineering.</p>
+
+                        <p>Women have always, and continue to, played a key role in software development, the tech industry, and the world of coding. But the gender gap in tech remains wide, and women need the resources to get coding! Below you can find some of our favourites to get you started.</p>
+                        
+                    </div>
+                    <div class="box">
+                        <img src="https://images.unsplash.com/photo-1528901166007-3784c7dd3653" height="200px">
+                    </div>
+                </div>
+
+                <div class="flex-container">
+                    <div class="box">
+                        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6" height="200px">
+                   </div>
+                    <div class="box">
+                        <h3>Code First Girls</h3>
+                        <p><a href=https://codefirstgirls.org.uk target=“_blank”>Code First Girls</a> is the largest provider of free coding courses for women in the UK, having delivered over £20 million worth of free technology education and teaching three times as many women to code as the entire UK university undergraduate system.</p>
+                        
+                        <p>CFG is a great place for women to start their coding journey – check it out now!</p>
+                        
+                    </div>
+                </div>
+
+                <div class="flex-container">
+                    <div class="box">
+                        <h3>Tutorials</h3>
+                        <p>These links will take you to sites where you can sign up for courses or tutorials to help you learn to code. Some are free, some you have to pay for:</p>
+    
+                        <a href="https://www.codecademy.com" target=“_blank”>Codecademy</a><br>
+                        <a href="https://www.udemy.com/course/coding-for-beginners-you-can-learn-to-code" target=“_blank”>Udemy</a><br>
+                        <a href="https://www.pluralsight.com" target=“_blank”>Pluralsight</a><br>
+                        <a href="https://www.youtube.com" target=“_blank”>Youtube</a><br>
+                         
+                   </div>
+                   <div class="box">
+                    <img src="https://images.unsplash.com/photo-1581094271901-8022df4466f9" height="200px">
+                   </div>
+                </div>
+
+                <div class="flex-container">
+                    <div class="box">
+                        <img src="https://images.unsplash.com/photo-1581093585713-d6093e4861ff" height="200px">
+                   </div>
+                    <div class="box">
+                        <h3>Reference material/forums</h3>
+                            <p>These links will help you study reference material about HTML, CSS and Javascript, or get tips from fellow coders</p>
+                            <a href="https://www.w3schools.com" target=“_blank”>W3 Schools</a><br>
+                            <a href="https://developer.mozilla.org/en-US" target=“_blank”>MDN Web Docs</a><br>
+                            <a href="https://stackoverflow.com" target=“_blank”>Stack Overflow</a><br>
+                            
+                    </div>
+                </div>
+                
+            </div>
+        </main>
+
+    </div>
+
+    <script src="../script.js"></script>
+</body>
+</html>
