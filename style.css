@@ -32,7 +32,7 @@ header {
   height: 0;
   width: 100%;
   position: fixed;
-  z-index: 1;
+  z-index: 100;
   left: 0;
   top: 0;
 
@@ -141,14 +141,14 @@ header {
 
 #content {
   background-image: url("./Images/home-image.png");
-  background-color: rgb(252, 230, 225);
+  background-color: rgba(252, 230, 225, 0.767);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 68vw;
   height: 82vh;
   margin: 0 1% 0 1%;
   border-radius: 8px;
-  z-index: -100;
+  z-index: -10;
   color: rgb(179, 135, 221);
   text-align: center;
   padding: 2%;
@@ -177,9 +177,9 @@ h2 {
   font-size: 1.7vw;
 }
 
- h3 {
-    color: rgb(179, 135, 221);
-  }
+h3 {
+  color: rgb(179, 135, 221);
+}
 
 #read-about-button {
   position: absolute;
@@ -191,22 +191,25 @@ h2 {
   height: 45px;
   border-radius: 30px;
   width: 300px;
+  z-index: 0;
 }
 
 #read-about-a {
   text-decoration: none;
   color: rgb(60, 78, 118);
+  z-index: -100;
 }
 
 #read-about-p {
   margin: 13px;
+  z-index: -100;
 }
 
 #mission-content {
   background-color: white;
-  height: 56vh;
+  height: fit-content;
   margin: 10vh 1% 15vh 1%;
-  padding: 5%;
+  padding: 2%;
   border-radius: 8px;
   text-align: center;
 }
@@ -220,6 +223,10 @@ h2 {
 
 #mission-img {
   width: 12%;
+}
+
+#aboutus-anchor {
+  text-decoration: none;
 }
 
 .flex-container {
@@ -237,18 +244,18 @@ h2 {
   width: 50%;
 }
 
- a {
-    color: rgb(179, 135, 221);
-    text-decoration: none;
-  }
+a {
+  color: rgb(179, 135, 221);
+  text-decoration: none;
+}
 
-  a:visited {
-    color: rgb(179, 135, 221);
-  }
-  
-  a:hover {
-    color: white;
-  }
+a:visited {
+  color: rgb(179, 135, 221);
+}
+
+a:hover {
+  color: white;
+}
 
 /*------------------------------------TECH GAP-------------------------------------------*/
 
@@ -274,7 +281,8 @@ h2 {
 }
 
 #flex-main {
-  height: auto;
+  height: fit-content;
+  margin-bottom: 10px;
 }
 
 #tech-gap-img {
@@ -283,16 +291,21 @@ h2 {
 
 /*------------------------------------RESOURCES-------------------------------------------*/
 
- figcaption {
-      padding: 5px;
-      font-style: italic;
-      font-size: 10pt;
-  }
+figcaption {
+  padding: 5px;
+  font-style: italic;
+  font-size: 10pt;
+}
 
- /*------------------------------------ABOUT----------------------------------------------*/
+#resources-main {
+  height: fit-content;
+  margin-bottom: 20px;
+}
 
- #bio img {
-    border-radius: 50%;
-    height: 250px;
-    width: 250px;
-  }
+/*------------------------------------ABOUT----------------------------------------------*/
+
+#bio img {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+}

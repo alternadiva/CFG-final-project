@@ -1,6 +1,6 @@
 
 function openMenu() {
-    document.getElementById("menu").style.height = "100%";
+    document.getElementById("menu").style.height = "90%";
   }
   
 function closeMenu() {
