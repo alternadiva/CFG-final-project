@@ -286,7 +286,7 @@ textarea {
   border-radius: 20px;
 }
 
-#invite-button {
+button {
   width: fit-content;
   font-size: 1.05rem;
   padding: 10px 50px;
@@ -296,7 +296,13 @@ textarea {
   border-radius: 20px;
   border: none;
   margin: 0;
-}
+  transition-duration: 0.4s;
+  }
+
+button:hover {
+  background-color: white;
+  color: rgb(179, 135, 221);
+  }
 
 .flex-container {
   display: flex;
