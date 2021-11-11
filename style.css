@@ -182,7 +182,6 @@ h2 {
   margin-top: 20px;
   padding: 0;
   color: rgb(179, 135, 221);
-  font-size: 1.7vw;
 }
 
 h3 {
@@ -297,12 +296,12 @@ button {
   border: none;
   margin: 0;
   transition-duration: 0.4s;
-  }
+}
 
 button:hover {
   background-color: white;
   color: rgb(179, 135, 221);
-  }
+}
 
 .flex-container {
   display: flex;
@@ -342,7 +341,7 @@ a:hover {
   justify-content: center;
   color: rgb(60, 78, 118);
   font-family: monospace;
-  font-size: 1.1vw;
+  font-size: 2vmin;
   padding: 20px;
 }
 
@@ -352,7 +351,7 @@ a:hover {
 }
 
 .flex-stats span {
-  font-size: 2.7vw;
+  font-size: 5vmin;
 }
 
 #flex-main {
@@ -362,7 +361,7 @@ a:hover {
 }
 
 #tech-gap-img {
-  max-width: 31vw;
+  max-width: 60%;
 }
 
 /*------------------------------------RESOURCES-------------------------------------------*/

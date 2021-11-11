@@ -16,3 +16,5 @@ closeButton.addEventListener("click", closeMenu);
 function inviteHer() {
   window.open('mailto:?subject=I think you should get coding&body=We need more women in tech - I think you should check out #getHerCoding for more information: https://alternadiva.github.io/get-her-coding/')
 }
+
+
