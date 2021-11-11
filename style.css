@@ -142,7 +142,7 @@ header {
 /*------------------------------------MAIN-------------------------------------------*/
 
 #content {
-  background-image: url("./Images/home-image.png");
+  /*background-image: url("./Images/home-image.png");*/
   background-color: rgba(252, 230, 225, 0.767);
   background-repeat: no-repeat;
   background-position: center;
@@ -210,6 +210,11 @@ h3 {
 #read-about-p {
   margin: 13px;
   z-index: -100;
+}
+
+#home-img {
+  width: 65vw;
+  min-width: 50vw;
 }
 
 /*------------------------------------MISSION STATEMENT-------------------------------------------*/
