@@ -402,6 +402,15 @@ legend {
   font-family: "Contrail One", cursive;
 }
 
+@media screen and (max-width: 800px) {
+  .yt-videos {
+    width: 300px;
+  }
+
+  #search-field {
+    visibility: hidden;
+  }
+}
 /*------------------------------------ABOUT----------------------------------------------*/
 
 #bio img {
